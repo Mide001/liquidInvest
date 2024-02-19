@@ -1,0 +1,66 @@
+// banner
+.banner {
+    padding: 130px 0 0;
+    position: relative;
+    background-image: url('../bg1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+  
+    &::after {
+      content: '';
+      background-color: #171717;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  
+    &-content {
+      z-index: 1;
+  
+      &-title {
+        font-size: 65px;
+        font-weight: 900;
+        text-align: center;
+        color: #fff;
+        line-height: 1.2;
+  
+        @media screen and (max-width: 500px) {
+          font-size: 34px;
+        }
+  
+        &.moveing {
+          font-weight: 800;
+        }
+      }
+  
+      // btn;
+      &-btn {
+        margin: 30px auto;
+  
+        &:hover {
+          color: #171717;
+          background-image: linear-gradient(200deg, #78dd8d 0%, #ec0688 100%);
+        }
+      }
+  
+      .moving {
+        &-wrp {
+          height: 80px;
+          overflow: hidden;
+        }
+        animation: move1 5s infinite alternate 1s;
+  
+        & > h1 {
+          font-weight: 800;
+          transition: 1s;
+          text-align: center;
+        }
+      }
+    }
+  }
