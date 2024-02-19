@@ -1,4 +1,3 @@
-import logo from "../assets/Liquid-Invest.png";
 
 const Investication = () => {
   return (

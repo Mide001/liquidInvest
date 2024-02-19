@@ -126,22 +126,22 @@ const Navbar = () => {
           <div className="md:hidden py-4 border-b border-gray-300 pl-4">
             <ul className="flex flex-col space-y-3">
               <li>
-                <a href="#" onClick={() => scrollToSection("home")} className="text-white">
+                <a href="/#" onClick={() => scrollToSection("home")} className="text-white">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => scrollToSection("overview")} className="text-white">
+                <a href="#overview" onClick={() => scrollToSection("overview")} className="text-white">
                   Overview
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => scrollToSection("tokenomics")} className="text-white">
+                <a href="#tokenomics" onClick={() => scrollToSection("tokenomics")} className="text-white">
                 Tokenomics
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => scrollToSection("contact")} className="text-white">
+                <a href="#contact" onClick={() => scrollToSection("contact")} className="text-white">
                   Contact
                 </a>
               </li>

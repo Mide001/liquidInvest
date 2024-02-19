@@ -10,7 +10,7 @@ const Banner = () => {
     <>
     <div className="relative h-screen">
       <div className="absolute inset-0">
-        <img src={BgImage} alt="Background Image" fill />
+        <img src={BgImage} alt="Background" fill />
       </div>
       <div className="container mx-auto absolute inset-0 flex items-center justify-center text-white text-center">
         <div>
