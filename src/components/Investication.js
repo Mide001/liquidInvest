@@ -14,10 +14,10 @@ const Investication = () => {
                 of crypto investment!
               </p>
               <a
-                href="https://staging-b0b8-liquidinvest.wpcomstaging.com/wp-content/uploads/2023/12/white_paper-1.pdf"
+                href="https://drive.google.com/file/d/1ssh8z1G_qcSUNnyM2ijBZGiNrxW1GdXB/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#658ad7] mt-4 text-gray-800 py-2 px-4 rounded-md inline-flex items-center"
+                className="bg-[#9945FF] mt-4 text-gray-200 py-2 px-4 rounded-md inline-flex items-center"
               >
                 <span className="mr-1">Whitepaper</span>
                 <svg

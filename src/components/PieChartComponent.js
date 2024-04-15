@@ -9,7 +9,7 @@ const PieChartComponent = ({ header, description, data }) => {
     <section className="tokenommics" id="tokenomics">
          <div className="bg-[#171717] flex flex-col md:flex-row p-4">
       <div className="md:w-1/2 p-4">
-        <h2 className="text-2xl font-bold mb-2 text-[#658ad7]">{header}</h2>
+        <h2 className="text-2xl font-bold mb-2 text-[#9945FF]">{header}</h2>
         <p className="text-gray-300 mb-4">{description}</p>
       </div>
       <div className="md:w-1/2 p-4">

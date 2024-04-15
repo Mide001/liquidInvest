@@ -10,7 +10,7 @@ export default function Footer() {
       <div className='container'> 
         <div className='footer-top'>
           <ul className='menu'>
-            <h5 className='text-[#658ad7]'>Company</h5>
+            <h5 className='text-[#9945FF]'>Company</h5>
             <li>
               <a href='#overview'>About Us</a>
             </li>
@@ -19,7 +19,7 @@ export default function Footer() {
             </li>
           </ul>
           <ul className='menu'>
-            <h5 className='text-[#658ad7]'>Product</h5>
+            <h5 className='text-[#9945FF]'>Product</h5>
             <li>
               <a
                 target='blank'

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import LiquidInvestLogo from "../assets/Liquid-Invest.png";
+import LiquidInvestLogo from "../assets/LOGO-WHITE.svg";
 
 
 
@@ -34,7 +34,7 @@ const Navbar = () => {
     COLOUR CODES:
   
     Purple: #658ad7
-    Green: #78dd8d
+    Green: #9945FF
     */
   
     return (
@@ -57,24 +57,36 @@ const Navbar = () => {
                   href="#home"
                   onClick={() => scrollToSection("home")}
                   className={`${
-                    pathname === "/" ? "text-[#78dd8d]" : "text-gray-300"
+                    pathname === "/" ? "text-[#9945FF]" : "text-gray-300"
                   }`}
                 >
                   Home
                 </a>
-                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#78dd8d] transform scale-x-100 origin-bottom transition-transform"></div>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#9945FF] transform scale-x-100 origin-bottom transition-transform"></div>
+              </li>
+              <li className="group relative">
+                <a
+                  href="#presale"
+                  onClick={() => scrollToSection("presale")}
+                  className={`${
+                    pathname === "/presale" ? "text-[#9945FF]" : "text-gray-300"
+                  }`}
+                >
+                  Presale
+                </a>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#9945FF] transform scale-x-0 origin-bottom transition-transform"></div>
               </li>
               <li className="group relative">
                 <a
                   href="#overview"
                   onClick={() => scrollToSection("overview")}
                   className={`${
-                    pathname === "/roadmap" ? "text-[#78dd8d]" : "text-gray-300"
+                    pathname === "/roadmap" ? "text-[#9945FF]" : "text-gray-300"
                   }`}
                 >
                   Overview
                 </a>
-                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#78dd8d] transform scale-x-0 origin-bottom transition-transform"></div>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#9945FF] transform scale-x-0 origin-bottom transition-transform"></div>
               </li>
               <li className="group relative">
                 <a
@@ -88,7 +100,7 @@ const Navbar = () => {
                 >
                   Tokenomics
                 </a>
-                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#78dd8d] transform scale-x-0 origin-bottom transition-transform"></div>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#9945FF] transform scale-x-0 origin-bottom transition-transform"></div>
               </li>
               <li className="group relative">
                 <a
@@ -102,7 +114,7 @@ const Navbar = () => {
                 >
                   Contact
                 </a>
-                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#78dd8d] transform scale-x-0 origin-bottom transition-transform"></div>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-[#9945FF] transform scale-x-0 origin-bottom transition-transform"></div>
               </li>
             </ul>
           </div>
@@ -128,6 +140,11 @@ const Navbar = () => {
               <li>
                 <a href="/#" onClick={() => scrollToSection("home")} className="text-white">
                   Home
+                </a>
+              </li>
+              <li>
+                <a href="#presale" onClick={() => scrollToSection("presale")} className="text-white">
+                  Presale
                 </a>
               </li>
               <li>

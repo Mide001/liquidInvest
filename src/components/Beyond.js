@@ -9,7 +9,7 @@ const Beyond = () => {
       </h2>
       <div className="mx-auto p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 flex flex-col-reverse lg:flex-row justify-center items-center mt-10 lg:mt-20">
         <div className="w-full lg:w-1/2 p-4">
-          <video width="100%" height="auto" controls poster={FomoBanner}>
+        <video width="100%" height="auto" controls poster={FomoBanner}>
             <source
               src="https://player.vimeo.com/video/881057694"
               type="video/mp4"

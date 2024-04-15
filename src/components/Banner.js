@@ -23,7 +23,7 @@ const Banner = () => {
               </div>
             </h1>
 
-            <button className="border border-[#78dd8d] text-gray-200 px-4 py-2 rounded-md md:mt-10 mx-auto block mt-10">
+            <button className="border border-[#9945FF] text-gray-200 px-4 py-2 rounded-md md:mt-10 mx-auto block mt-10 startInvest">
               Start Investing Now
             </button>
 
